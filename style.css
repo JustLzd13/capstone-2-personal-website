@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* first part */
+.first-part{
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.first-part {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 3rem;
+    font-family: "Sofia", sans-serif;
+}
+
+/* second part */
+.second-part{
+    margin-top: 5%;
+    display: grid;
+    font-family: sans-serif;
+}
+
+.second-part img{
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-part h2, .second-part p{
+    text-align: center;
+}
+
+.second-part h2{
+    color: #EA6957;
+}
+
+.msg1{
+    margin-top: 40px;
+}
+
+.second-part p{
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.second-part img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.second-part h2{
+    font-size: 2rem;
+}
+
+
+/* linebreak */
+
+.linebreak{
+    margin-top: 10%;
+    width: 100%;
+    height: 90px;
+}
+
+
+/* thirdpart */
+.third-part{
+    font-family: sans-serif;
+}
+
+.skill{
+    margin-left: 33%;
+}
+
+.third-part h1{
+    margin-bottom: 5%;
+    text-align: center;
+    margin-top: 10%;
+    color: #EA6957;
+    font-size: 40px;
+}
+
+.part1 img{
+    height: 200px;
+    width: 400px;
+}
+
+.part2 img{
+    height: 300px;
+    padding: 0 61px;
+}
+
+.skill{
+    display: flex;
+}
+
+.skill h2{
+    padding-left: 20px;
+    color: #EA6957;
+}
+
+.skill p{
+    width: 20%;
+    padding-left: 20px;
+}
+
+.skill{
+    margin-bottom: 5%;
+}
+
+/** fourth part **/
+.fourth-part{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.fourth-part h2{
+    margin-top: 5%;
+    font-size: 40px;
+    margin-bottom: 3%;
+    color: #EA6957;
+}
+
+.fourth-part h3{
+    margin-bottom: 1%;
+}
+
+.fourth-part p{
+    margin-bottom: 10px;
+}
+
+.fourth-part button{
+    margin-top: 40px;
+    background:#EA6957;
+    padding: 20px 20px;
+    border-radius: 9%;
+    color: #fff;
+    border: 1px solid white;
+    margin-bottom: 10%;
+}
+
+.fourth-part button:hover{
+    background: #F8A55D;
+}
+
+.fourth-part a{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+/**footer**/
+.footer{
+    height: 150px;
+    background:#EA6957;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.linkables{
+    padding-top: 40px;
+    margin-bottom: 70px;
+}
+
+
+.linkables a{
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.linkables a:hover{
+    color: #fff;
+}
+
